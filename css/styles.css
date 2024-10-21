@@ -1,4 +1,11 @@
+@import url("./cabecalho.css");
+
 body {
+    width: 100%;
     background-color: black;
     color: white;
+}
+
+img {
+    height: 10em;
 }

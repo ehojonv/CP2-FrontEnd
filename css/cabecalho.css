@@ -1,0 +1,36 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 2em;
+}
+
+.cabecalho__links {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cabecalho__link {
+    margin: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho__link:hover {
+    text-decoration: underline;
+}
+
+.cabecalho__logo {
+    padding: 1em 0;
+    height: 5em;
+}
+
+.cabecalho__link-image {
+    padding: 0;
+}
+
+.cabecalho__link-image {
+    height: 2em;
+}
