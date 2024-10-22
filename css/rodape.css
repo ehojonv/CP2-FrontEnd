@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.rodape__redes {
+    align-items: center;
+    display: flex;
+
+}
+
 .rodape__links {
     display: flex;
     justify-content: space-evenly;
@@ -20,5 +26,5 @@
 }
 
 .rodape__link-image {
-    width: 2rem;
+    height: 2em;
 }
