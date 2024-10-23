@@ -1,0 +1,20 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 2em;
+}
+
+.contato__form{
+    background-color: #fff;
+    height: 75vh;
+    width: 130vh;
+}
+
+.form__titulo{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left:12px;
+}
