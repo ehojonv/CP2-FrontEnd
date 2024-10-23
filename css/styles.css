@@ -1,5 +1,7 @@
 @import url("./cabecalho.css");
 
+@import url("./rodape.css");
+
 body {
     width: 100%;
     background-color: black;

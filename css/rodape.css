@@ -1,0 +1,30 @@
+.rodape {
+    padding: 2em;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__redes {
+    align-items: center;
+    display: flex;
+
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rodape__link {
+    color: white;
+    margin: 2em 1em;
+    font-size: 1.2em;
+}
+
+.rodape__link-image {
+    height: 2em;
+}
