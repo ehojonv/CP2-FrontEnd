@@ -1,11 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("./cabecalho.css");
 
 body {
     width: 100%;
     background-color: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img {
-    height: 10em;
+    max-width: 100%;
+    height: auto;
 }
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #f48a8a;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Imagem principal */
+.section-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Imagens secundárias */
+.section-image.secondary {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+/* Valores Container */
+.valores-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+/* Texto alinhado */
+.valores-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* Ajustando margens entre imagem e texto */
+.valores-content img {
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.valores p {
+    margin: 0;
+    max-width: 600px;
+    text-align: justify;
+}
+
+/* Divisores */
+.divider {
+    border: 0;
+    height: 1px;
+    background: #f48a8a;
+    margin: 40px 0;
+}
+
+/* Botão leia mais */
+.btn-leia-mais {
+    padding: 10px 20px;
+    background-color: #f48a8a;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .valores-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .valores-content img {
+        margin: 0 0 20px 0;
+    }
+
+    .btn-leia-mais {
+        width: 100%;
+    }
+}
+
