@@ -20,7 +20,6 @@ section {
     padding: 40px 20px;
     text-align: center;
     margin-bottom: 40px;
-    font-weight: 1000;
 }
 
 h2 {
@@ -67,6 +66,10 @@ h2 {
 .valores-content img {
     margin-right: 20px;
     flex-shrink: 0;
+}
+
+.section__tiutlo {
+    font-weight: 1000;
 }
 
 .titulo {
