@@ -58,3 +58,17 @@
     width: 100%;
     height: 150px;
 }
+
+.text{
+    margin-top: 25px;
+    color: black;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.subtexto{
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
