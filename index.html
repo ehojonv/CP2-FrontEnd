@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <title>Play Game</title>
 </head>
 
@@ -58,7 +60,17 @@
                 <p class="text">Our <span class="sublinhado">privacy policy</span> applies</p>
             </div>
         </form>
+        <script>
+            const phoneInput = document.querySelector("#telefone");
+            intlTelInput(phoneInput, {
+            initialCountry: "br", 
+            preferredCountries: ["br", "us", ], 
+            separateDialCode: true 
+        });
+        </script>
     </address>
+
+    
      <!--Contato-->
 
     <footer class="rodape">
