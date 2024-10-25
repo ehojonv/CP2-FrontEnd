@@ -2,11 +2,13 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <title>Play Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <title>Play Game</title>
 </head>
 
 <body>
@@ -96,7 +98,44 @@
     </section>
   </main>
 
-  <address></address>
+    <address class="contato">
+        <form action="" class="contato__form">
+            <h1 class="form__titulo">Quer saber mais?</h1>
+    
+            <div class="caixa__texto">
+                <div class="organizador__inputs">
+                    <label for="nome" class="titles">Name</label>
+                    <input type="text" id="nome" class="inputs" placeholder="">
+                </div>
+    
+                <div class="organizador__inputs">
+                    <label for="email" class="titles">Email address <span class="subtexto">(Required)</span></label>
+                    <input type="email" id="email" class="inputs" placeholder="">
+                </div>
+    
+                <div class="organizador__inputs">
+                    <label for="telefone" class="titles">Telefone</label>
+                    <input type="tel" id="telefone" class="inputs" placeholder="">
+                </div>
+            </div>
+            <div class="organizador__inputs">
+                <label for="mensagem" class="titles">Mensagem <span class="subtexto">(Required)</span></label>
+                <textarea id="mensagem" class="area__text" placeholder=""></textarea>
+                <p class="text">Our <span class="sublinhado">privacy policy</span> applies</p>
+            </div>
+            <div class="organizador__botao">
+                <button class="botao">Submit</button>
+            </div>
+        </form>
+        <script>
+            const phoneInput = document.querySelector("#telefone");
+            intlTelInput(phoneInput, {
+            initialCountry: "br", 
+            preferredCountries: ["br", "us", ], 
+            separateDialCode: true 
+        });
+        </script>
+    </address>
 
     <footer class="rodape">
 

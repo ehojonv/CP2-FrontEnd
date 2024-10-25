@@ -1,0 +1,101 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 2em;
+}
+
+.contato__form {
+    background-color: #fff;
+    padding: 1em;
+    width: 90%;
+    max-width: 800px;
+    box-sizing: border-box;
+    
+}
+
+.form__titulo {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1.5em;
+}
+
+.caixa__texto {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.organizador__inputs {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Faz com que os inputs ocupem o mesmo espaço */
+    min-width: 200px; /* Define uma largura mínima para manter a responsividade */
+}
+
+.titles {
+    color: black;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.inputs,
+.area__text {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.inputs {
+    height: 40px;
+}
+
+.area__text {
+    width: 100%;
+    height: 150px;
+}
+
+.text{
+    margin-top: 25px;
+    color: black;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.subtexto{
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
+
+.iti__selected-dial-code {
+    color: black;
+    background-color: transparent; 
+}
+
+.iti__country-list .iti__country {
+    color: black;
+}
+
+.organizador__botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
